@@ -121,3 +121,9 @@ h1::after {
 .color-box .color-info .copy-btn:hover {
     color: var(--light-blue-color);
 }
+
+@media screen and (max-width: 768px) {
+    .palette-container {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}
