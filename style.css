@@ -1,0 +1,23 @@
+/* Globa Reset */
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --background-color-1: #83a8df;
+    --background-color-2:  #c3cfe2;
+
+}
+
+body {
+    background: linear-gradient(135deg, var(--background-color-1), var(--background-color-2));
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
